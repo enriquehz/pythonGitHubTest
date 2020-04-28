@@ -11,7 +11,7 @@ def lambda_handler(event, context):
     brics = pd.DataFrame(dict)
     return {
         'statusCode': 200,
-        'body': json.dumps('Hello world from lambda')
+        'body': json.dumps('Hello world from lambda, updated from GITHUB SUCCESSSS!!!!!')
     }
     
     
